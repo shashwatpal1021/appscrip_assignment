@@ -88,7 +88,7 @@ export default function WebPLPWithFilterPage() {
                     </Text>
                   </div>
                 </div>
-                <SelectBox
+                {/* <SelectBox
                   menuPortalTarget={document.getElementById("menuPortalTarget")}
                   shape="square"
                   indicator={
@@ -104,7 +104,7 @@ export default function WebPLPWithFilterPage() {
                   placeholder="Recommended"
                   options={dropDownOptions}
                   className="mr-3 mt-[7px] w-[20%] gap-px font-bold uppercase text-gray-900 sm:mr-0 sm:w-full sm:pr-5"
-                />
+                /> */}
               </div>
             </div>
             <div className="flex items-start gap-4 md:flex-col">
