@@ -28,9 +28,9 @@ const SelectBox = React.forwardRef(
   ) => {
     const [menuPortalTarget, setMenuPortalTarget] = React.useState(null);
 
-    React.useEffect(() => {
-      setMenuPortalTarget(document.body);
-    }, []);
+    // React.useEffect(() => {
+    //   setMenuPortalTarget(document.body);
+    // }, []);
 
     return (
       <>
